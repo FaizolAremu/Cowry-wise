@@ -98,9 +98,17 @@ body {
 
 /* DIVIDER */
 .divider {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   margin: 20px 0;
   color: #9ca3af;
+}
+
+.divider hr {
+  flex: 1;
+  border: 1px solid #f3f4f7;
 }
 
 /* FORM */
