@@ -302,7 +302,7 @@ input:focus {
   padding: 14px;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(to right, #1d4ed8, #3b82f6);
+  background: #0066f5;
   color: white;
   font-weight: bold;
 }
