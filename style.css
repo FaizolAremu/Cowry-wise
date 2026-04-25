@@ -387,4 +387,30 @@ input:focus {
 
   }
 
+  /* Signup */
+  .signup-container {
+    flex-direction: column;
+  }
+
+  .signup-left {
+    padding: 20px;
+  }
+
+  .signup-box {
+    margin-top: 40px;
+  }
+
+  .signup-box h1 {
+    font-size: 2.2rem;
+  }
+
+  .signup-right {
+    padding: 20px;
+    align-items: flex-start;  
+  }
+
+  .signup-right-box {
+    margin-top: 40px;
+  }
+
 }
