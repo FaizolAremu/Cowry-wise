@@ -29,16 +29,25 @@ body {
 
 .left h1 {
   font-size: 3rem;
-  color: #1a2b4c;
+  color: #0a2e65;
+  font-weight: 700;
 }
 
 .left p {
-  margin-top: 10px;
-  color: #6b7280;
+  margin-top: 15px;
+  color: #adbacd;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.small{
+   color: #8388a4;
+  font-size: 15px;
 }
 
 .small a {
-  color: #2563eb;
+  font-size: 15px;
+  color: #0066f6;
   text-decoration: none;
   font-weight: bold;
 }
