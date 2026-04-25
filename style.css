@@ -56,6 +56,7 @@ body {
 .right {
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -183,8 +184,13 @@ input:focus {
 .footer {
   margin-top: 20px;
   font-size: 14px;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;  
+  align-items: center;
+  gap: 50px;
+   color: #9ca3af;
 }
+
 
 .footer a {
   color: #2563eb;
@@ -192,7 +198,6 @@ input:focus {
 }
 
 .links {
-  margin-top: 10px;
   color: #9ca3af;
 }
 
