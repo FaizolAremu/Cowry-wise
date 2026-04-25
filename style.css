@@ -218,4 +218,10 @@ input:focus {
   .form-box {
     padding: 25px;
   }
+
+  .social-btn{
+    flex-direction: column;
+  }
+
+  
 }
