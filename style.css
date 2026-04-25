@@ -424,11 +424,15 @@ input:focus {
 
   .signup-right {
     padding: 20px;
-    align-items: flex-start;  
+    text-align: center; 
   }
 
   .signup-right-box {
     margin-top: 40px;
+  }
+
+  .signup-right-box h2 {
+    display: none;
   }
 
   .signup-footer{
