@@ -205,6 +205,106 @@ input:focus {
   color: #9ca3af;
 }
 
+
+/* Signup */
+
+.signup-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.signup-left {
+  flex: 1;
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #0a2e65;
+}
+
+.signup-box {
+  margin-top: 80px;
+ background: #fff;
+  padding: 50px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.signup-box h1 {
+  font-size: 3rem;
+  color: #0a2e65;
+  margin-bottom: 20px;
+}
+
+.signup-box p {
+  margin-bottom: 25px;
+  color: #6b7280;
+}
+
+.signup-google-btn {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.signup-divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.signup-divider hr {
+  flex: 1;
+}
+
+.signup-continue {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #1d4ed8, #3b82f6);
+  color: white;
+  font-weight: bold;
+}
+
+.signup-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-right-box {
+  max-width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
   .container {
