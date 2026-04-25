@@ -73,19 +73,27 @@ body {
 .social-btn {
   display: flex;
   gap: 10px;
+  width: 100%;
 }
 
 .btn {
+  flex: 1;
   padding: 12px;
   border-radius: 10px;
   border: 1px solid #ddd;
   background: #fff;
+  color: #0a2e65;
   cursor: pointer;
+  font-size: 15px;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn:hover {
-  background: #f9fafb;
+  box-shadow: 0 10px 30px #e0e4eb;
+  
 }
 
 /* DIVIDER */
