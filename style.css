@@ -205,10 +205,11 @@ input:focus {
   color: #9ca3af;
 }
 
-/* 📱 RESPONSIVENESS */
+/* RESPONSIVENESS */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
+     min-height: auto;
   }
 
   .left {
@@ -220,7 +221,7 @@ input:focus {
   }
 
   .left-content{
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .right {
