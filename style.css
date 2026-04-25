@@ -19,10 +19,10 @@ body {
   flex: 1;
   background: #f4f7fa;
   display: flex;
-    flex-direction: column;  
-  align-items: flex-start; 
-  padding-left: 120px;      
-  padding-top: 80px;       
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 120px;
+  padding-top: 80px;
 }
 
 .left-content {
@@ -62,7 +62,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-   padding-top: 80px;
+  padding-top: 80px;
 }
 
 .form-box {
@@ -230,7 +230,7 @@ input:focus {
 
 .signup-box {
   margin-top: 80px;
- background: #fff;
+  background: #fff;
   padding: 50px;
   border-radius: 15px;
   width: 100%;
@@ -251,7 +251,7 @@ input:focus {
   color: #6b7280;
 }
 
-.signup-box p a{
+.signup-box p a {
   text-decoration: none;
 }
 
@@ -310,12 +310,24 @@ input:focus {
 .signup-right {
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-top: 150px;
 }
 
 .signup-right-box {
   max-width: 350px;
+}
+
+.signup-right-box h2{
+  color: #0a2e65;
+  margin-bottom: 20px;
+}
+
+.signup-right-box p {
+  color: #6c82a3;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 
@@ -333,18 +345,18 @@ input:focus {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-     min-height: auto;
+    min-height: auto;
   }
 
   .left {
     padding: 20px;
   }
 
-  .left h1{
+  .left h1 {
     font-size: 2.5rem;
   }
 
-  .left-content{
+  .left-content {
     margin-top: 40px;
   }
 
