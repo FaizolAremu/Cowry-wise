@@ -339,6 +339,25 @@ input:focus {
   border-radius: 20px;
 }
 
+.signup-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  color: #9ca3af;
+}
+
+.signup-footer p img{
+  width: 20px;
+  height: 20px;
+}
+
+.signup-footer a {
+  text-decoration: none;
+}
+
 
 
 
@@ -411,6 +430,10 @@ input:focus {
 
   .signup-right-box {
     margin-top: 40px;
+  }
+
+  .signup-footer{
+    font-size: 12px;
   }
 
 }
