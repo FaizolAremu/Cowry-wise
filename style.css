@@ -330,6 +330,15 @@ input:focus {
   margin-bottom: 20px;
 }
 
+.signup-right-box a {
+  color: #0066f5;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
 
 
 
