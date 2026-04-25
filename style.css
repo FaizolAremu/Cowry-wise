@@ -149,6 +149,12 @@ input:focus {
   color: #6b7280;
 }
 
+.password-box span img{
+  width: 20px;
+  height: 20px;
+  color: #b5c0d0;
+}
+
 /* LINKS */
 .forgot {
   font-size: 14px;
