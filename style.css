@@ -366,8 +366,6 @@ input:focus {
 
 
 
-
-
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
   .container {
@@ -420,6 +418,10 @@ input:focus {
 
   .signup-box h1 {
     font-size: 2.2rem;
+  }
+
+  .signup-google-btn{
+    width: 100%;
   }
 
   .signup-right {
