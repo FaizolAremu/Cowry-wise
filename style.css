@@ -208,7 +208,15 @@ input:focus {
   }
 
   .left {
-    display: none;
+    padding: 20px;
+  }
+
+  .left h1{
+    font-size: 2.5rem;
+  }
+
+  .left-content{
+    margin-top: 50px;
   }
 
   .right {
