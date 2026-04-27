@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -12,7 +12,8 @@ body {
 .nav-bar {
   background: #fff;
   padding: 15px 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  width: 100%;
   /* position: sticky;
   top: 0;
   z-index: 1000; */
@@ -26,13 +27,16 @@ body {
 
 .nav-left {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 40px; /* 👈 controls space between logo & links */
+  gap: 40px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 
@@ -40,6 +44,7 @@ body {
   text-decoration: none;
   color: #778cab;
   font-weight: 600;
+  font-size: 18px;
   transition: 0.3s;
 }
 
@@ -58,6 +63,7 @@ body {
 .btn-login {
   color: #0067f5;
   text-decoration: none;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -67,14 +73,18 @@ body {
   padding: 8px 15px;
   border-radius: 8px;
   text-decoration: none;
+  font-size: 18px;
   font-weight: 600;
-   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
 }
 
 .btn-signup:hover {
   box-shadow: none;
 }
 
+.bars-btn {
+  display: none;
+}
 
 
 
@@ -83,6 +93,8 @@ body {
 
 
 
+
+/* LOG IN */
 .container {
   display: flex;
   min-height: 100vh;
@@ -397,7 +409,7 @@ input:focus {
   max-width: 350px;
 }
 
-.signup-right-box h2{
+.signup-right-box h2 {
   color: #0a2e65;
   margin-bottom: 20px;
 }
@@ -427,7 +439,7 @@ input:focus {
   color: #9ca3af;
 }
 
-.signup-footer p img{
+.signup-footer p img {
   width: 20px;
   height: 20px;
 }
@@ -442,6 +454,29 @@ input:focus {
 
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
+  .nav-bar {
+    padding: 10px 10px;
+  }
+
+  .bars-btn {
+    display: block;
+    background-color: transparent;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 10px;
+    border: none;
+
+  }
+
+  .nav-links a,
+  .nav-actions{
+    display: none;
+  }
+
+
+
+
+  /* Log in */
   .container {
     flex-direction: column;
     min-height: auto;
@@ -494,13 +529,13 @@ input:focus {
     font-size: 2.2rem;
   }
 
-  .signup-google-btn{
+  .signup-google-btn {
     width: 100%;
   }
 
   .signup-right {
     padding: 20px;
-    text-align: center; 
+    text-align: center;
   }
 
   .signup-right-box {
@@ -511,7 +546,7 @@ input:focus {
     display: none;
   }
 
-  .signup-footer{
+  .signup-footer {
     font-size: 12px;
   }
 
