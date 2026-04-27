@@ -205,6 +205,54 @@ body {
   line-height: 1.5;
 }
 
+.feature-section {
+  padding: 60px 15px;
+  background: #f9fbff;
+}
+
+/* GENERAL CARD STYLE */
+.feature-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* BIG CARDS (LEFT & RIGHT) */
+.big-card {
+  min-height: 400px;
+}
+
+/* TEXT CARD */
+.text-card h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0a2e65;
+  margin-bottom: 15px;
+}
+
+.text-card p {
+  font-size: 0.95rem;
+  color: #7c8da6;
+  line-height: 1.6;
+}
+
+/* IMAGE CARD */
+.image-card img {
+  border-radius: 15px;
+}
+
+/* SMALL TEXT UNDER LEFT CARD */
+.small-text {
+  font-size: 0.85rem;
+  color: #7c8da6;
+  margin-top: 10px;
+}
+
 
 
 
