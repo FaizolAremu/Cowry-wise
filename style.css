@@ -459,38 +459,32 @@ body {
   cursor: pointer;
 }
 
-/* Card */
-.result-card {
-  background: #f5f7fa;
-  border-radius: 20px;
+.input-card2 {
+  border-radius: 15px;
   padding: 30px;
-  color: #333;
+  background: #d6ffeb; 
+  
 }
 
-/* Text inside card */
-.card-title {
-  font-weight: 500;
-}
-
-.label {
-  font-size: 0.85rem;
-  color: #777;
-}
-
-.value {
+.small-text2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 10px;
+  color: #40b255;
 }
 
-/* Green dot */
-.floating-dot {
-  position: absolute;
-  top: -12px;
-  right: 60px;
-  width: 35px;
-  height: 35px;
-  background: #7ed957;
-  border-radius: 50%;
+.amount-box2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  color: #40b255;
 }
+
+
+
+
 
 
 
