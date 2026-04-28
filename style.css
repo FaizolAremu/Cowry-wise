@@ -238,16 +238,17 @@ body {
 
 .coin-img {
   position: absolute;
-  bottom: -50px;  
+  bottom: -50px;
   left: -80px;
   width: 200px;
-   animation: rotateCoin 12s ease-in-out infinite;
+  animation: rotateCoin 12s ease-in-out infinite;
 }
 
 @keyframes rotateCoin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -309,22 +310,22 @@ body {
   margin-top: 10px;
 }
 
-.small-text{
+.small-text {
   padding: 0 15px;
   margin-top: 20px;
   font-size: 15px;
 }
 
-.small-text a{
+.small-text a {
   text-decoration: none;
 }
 
 
-.figured-section{
+.figured-section {
   padding: 60px 15px;
 }
 
-.figured-text h2{
+.figured-text h2 {
   font-size: 50px;
   color: #082552;
   text-align: center;
@@ -342,6 +343,7 @@ body {
 
   animation: scroll 40s linear infinite;
 }
+
 .review-track:hover {
   animation-play-state: paused;
   cursor: pointer;
@@ -351,6 +353,7 @@ body {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -366,8 +369,48 @@ body {
   font-size: 50px;
   font-weight: 700;
   color: #0067f5;
+  align-items: center;
 }
 
+
+.time-money-section{
+  background-color: #004fff;
+  padding: 60px 15px;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fffcff;
+}
+
+.top-text {
+  font-weight: 500;
+  color: #fffcff;
+}
+
+.sub-text {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  color: #56afff;
+}
+
+.btn-invest {
+  background: #fff;
+  color: #4f6384;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.btn-invest:hover{
+  background: #1e3c62;
+  color: #fffcff;
+}
 
 
 
@@ -794,12 +837,33 @@ input:focus {
   }
 
   .phone-img {
-  position: absolute;
-  top: -200px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200px;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+  }
+
+  .figured-text h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .review-box {
+  padding: 40px 50px;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #e0e4eb;
+  max-width: 400px;
+  white-space: normal;
+  font-size: 30px;
+  font-weight: 700;
+  color: #0067f5;
+  align-items: center;
 }
+
+
+
 
 
 
