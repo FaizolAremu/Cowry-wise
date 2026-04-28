@@ -482,6 +482,26 @@ body {
   color: #40b255;
 }
 
+.goal-container{
+  padding: 60px 15px;
+}
+
+.main-goal{
+  color: #082552;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 100%;
+  max-width: 350px;
+}
+
+.main-p{
+  color: #7c8da6;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  width: 100%;
+  max-width: 650px;
+}
+
 
 
 
