@@ -229,12 +229,29 @@ body {
   overflow: hidden;
 }
 
-.phone-card img {
+.phone-img {
   position: absolute;
   top: -220px;
   left: 50%;
   transform: translateX(-50%);
   width: 300px;
+}
+
+.coin-img {
+  position: absolute;
+  bottom: -50px;  
+  left: -80px;
+  width: 200px;
+   animation: rotateCoin 12s ease-in-out infinite;
+}
+
+@keyframes rotateCoin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .center-card {
