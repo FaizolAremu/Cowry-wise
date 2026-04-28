@@ -502,6 +502,18 @@ body {
   max-width: 650px;
 }
 
+.image-container{
+  padding: 60px 15px;
+}
+
+.img-box{
+  align-items: center;
+}
+.img-box img{
+  border-radius: 20px;
+  width: 300px;
+}
+
 
 
 
