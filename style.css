@@ -373,7 +373,7 @@ body {
 }
 
 
-.time-money-section{
+.time-money-section {
   background-color: #004fff;
   padding: 60px 15px;
 }
@@ -407,9 +407,89 @@ body {
   transition: 0.4s;
 }
 
-.btn-invest:hover{
+.btn-invest:hover {
   background: #1e3c62;
   color: #fffcff;
+}
+
+.input-card {
+  border-radius: 15px;
+  padding: 20px;
+  background: #0067f5; 
+}
+
+.small-text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+   margin-bottom: 40px;
+   color: #54acfc;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+   color: #fffcff;
+}
+
+.amount-value {
+  padding-bottom: 5px;
+ 
+}
+
+/* Input line */
+.amount-box {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.amount-box h2 {
+  margin: 0;
+   color: #fffcff;
+   font-weight: 700;
+}
+
+.amount-box select {
+  background: #0067f5;
+  color: #fffcff;
+  border: 1px solid #fffcff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Card */
+.result-card {
+  background: #f5f7fa;
+  border-radius: 20px;
+  padding: 30px;
+  color: #333;
+}
+
+/* Text inside card */
+.card-title {
+  font-weight: 500;
+}
+
+.label {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.value {
+  margin-top: 10px;
+}
+
+/* Green dot */
+.floating-dot {
+  position: absolute;
+  top: -12px;
+  right: 60px;
+  width: 35px;
+  height: 35px;
+  background: #7ed957;
+  border-radius: 50%;
 }
 
 
@@ -850,17 +930,17 @@ input:focus {
   }
 
   .review-box {
-  padding: 40px 50px;
-  background: #fff;
-  border-radius: 20px;
-  border: 1px solid #e0e4eb;
-  max-width: 400px;
-  white-space: normal;
-  font-size: 30px;
-  font-weight: 700;
-  color: #0067f5;
-  align-items: center;
-}
+    padding: 40px 50px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #e0e4eb;
+    max-width: 400px;
+    white-space: normal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0067f5;
+    align-items: center;
+  }
 
 
 
