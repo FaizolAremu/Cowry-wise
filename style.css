@@ -342,6 +342,10 @@ body {
 
   animation: scroll 40s linear infinite;
 }
+.review-track:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
 
 @keyframes scroll {
   0% {
