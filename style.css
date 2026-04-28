@@ -283,6 +283,7 @@ body {
 .image-card {
   padding: 0;
   overflow: hidden;
+  position: relative;
 }
 
 .image-card img {
@@ -290,6 +291,16 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+}
+
+.coin-right {
+  position: absolute;
+  bottom: -100px;
+  right: -300px;
+  width: 20px;
+
+
+  animation: coinSpin 12s linear infinite;
 }
 
 
