@@ -589,7 +589,13 @@ footer ul li {
 }
 
 footer ul li:hover {
-  color: #000;
+  color: #0067f5;
+}
+
+.footer-text{
+  color: #6c82a3;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .app-btn {
