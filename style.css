@@ -415,30 +415,30 @@ body {
 .input-card {
   border-radius: 15px;
   padding: 20px;
-  background: #0067f5; 
+  background: #0067f5;
 }
 
 .small-text {
   font-size: 0.9rem;
   opacity: 0.9;
-   margin-bottom: 40px;
-   color: #54acfc;
+  margin-bottom: 40px;
+  color: #54acfc;
 }
 
 .link {
   text-decoration: underline;
   cursor: pointer;
-   color: #fffcff;
+  color: #fffcff;
 }
 
 .amount-value {
   padding-bottom: 5px;
- 
+
 }
 
 /* Input line */
 .amount-box {
- display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
@@ -446,8 +446,8 @@ body {
 
 .amount-box h2 {
   margin: 0;
-   color: #fffcff;
-   font-weight: 700;
+  color: #fffcff;
+  font-weight: 700;
 }
 
 .amount-box select {
@@ -462,11 +462,11 @@ body {
 .input-card2 {
   border-radius: 15px;
   padding: 30px;
-  background: #d6ffeb; 
-  
+  background: #d6ffeb;
+
 }
 
-.small-text2{
+.small-text2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -474,7 +474,7 @@ body {
   color: #40b255;
 }
 
-.amount-box2{
+.amount-box2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -482,11 +482,11 @@ body {
   color: #40b255;
 }
 
-.goal-container{
+.goal-container {
   padding: 60px 15px;
 }
 
-.main-goal{
+.main-goal {
   color: #082552;
   font-size: 2.5rem;
   font-weight: 700;
@@ -494,7 +494,7 @@ body {
   max-width: 350px;
 }
 
-.main-p{
+.main-p {
   color: #7c8da6;
   font-size: 1.1rem;
   line-height: 1.6;
@@ -514,14 +514,12 @@ body {
   object-fit: cover;
 }
 
-/* DARK GRADIENT OVERLAY */
 .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
 }
 
-/* TEXT */
 .text-box {
   position: absolute;
   bottom: 20px;
@@ -540,14 +538,13 @@ body {
   opacity: 0.8;
 }
 
-/* PLAY BUTTON */
 .play-btn {
   position: absolute;
   top: 15px;
   right: 15px;
   width: 35px;
   height: 35px;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   display: flex;
   align-items: center;
