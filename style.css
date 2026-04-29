@@ -627,6 +627,32 @@ footer ul li:hover {
   transform: translateY(-2px);
 }
 
+.social-img {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  
+}
+
+
+.social-img img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+
+ 
+  filter: brightness(0) saturate(100%) invert(48%) sepia(9%) saturate(1063%) hue-rotate(173deg) brightness(94%) contrast(88%);
+  
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+.social-img img:hover {
+  transform: translateY(-3px);
+  opacity: 1;
+}
+
 
 
 
