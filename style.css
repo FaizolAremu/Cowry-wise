@@ -395,7 +395,7 @@ body {
   gap: 20px;
   width: max-content;
 
-  animation: scroll 40s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 
 .review-track:hover {
@@ -409,7 +409,7 @@ body {
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
