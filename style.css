@@ -12,7 +12,7 @@ body {
 
 
 .myNav {
-  padding: 20px 200px !important;
+  padding: 20px 15px !important;
   background-color: white !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
   z-index: 10;
