@@ -215,7 +215,7 @@ body {
   position: relative;
   background: #fff;
   margin: -60px 20px 20px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   display: flex;
@@ -1246,6 +1246,19 @@ input:focus {
     align-items: flex-start;
   }
 
+  .content-box img {
+    display: none;
+  }
+
+  .content-box p {
+    font-size: 12px;
+
+  }
+
+  .content-box {
+    margin: -60px 10px 20px;
+    padding: 10px;
+  }
 
 
 
