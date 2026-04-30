@@ -201,10 +201,20 @@ body {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .content-box:hover {
   transform: translateY(-2px);
+}
+
+.content-box img{
+  width: 50px;
+  height: 50px;
+  background-color: #f5f6fa;
+  border-radius: 50%;
 }
 
 
